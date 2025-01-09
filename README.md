@@ -1,71 +1,37 @@
-# HTML & CSS
+# Development
 
-A brief description of what the project does and who it's for.
+Job Ready AI Powered Cohort : Complete Web Development.
 
 ## Table of Contents
 
-- [About the Project](#about-the-project)  
-- [Getting Started](#getting-started)  
-- [Usage](#usage)  
-- [Features](#features)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)  
+- [HTML]
+- [CSS]
 
 ## About the Project
 
-Provide a detailed explanation of the project, including:  
-- The purpose and problem it solves  
-- Technologies used  
-- Highlights of the project  
+Provide a detailed practices of the development, including:  
+- The projects, practice & solves it 
+- Technologies used   
 
 ### Built With
-- [Technology 1](https://example.com)
-- [Technology 2](https://example.com)
-- [Technology 3](https://example.com)
+- [VS-CODE]
+- [CHROME]
 
 ## Getting Started
-
-Instructions on how to set up the project locally.
-
-### Prerequisites
-List any software or dependencies required to run the project.  
-Example:  
-```bash
-# Install Node.js
-https://nodejs.org/
-
-# Install npm or yarn
-npm install -g npm
-```
-
-### Installation
 Step-by-step guide to install and run the project.  
 Example:  
 ```bash
 git clone https://github.com/your-username/project-name.git
 cd project-name
-npm install
-npm start
+start using live server
 ```
-
-## Usage
-
-How to use the project.  
-Add examples, screenshots, or demos here.  
-
-Example:  
-```bash
-npm run serve
-```
-![App Screenshot](screenshot.png)
 
 ## Features
 
 List key features of the project.  
-- Feature 1  
-- Feature 2  
-- Feature 3  
+- Development  
+- Projects  
+- Practices 
 
 ## Contributing
 
@@ -82,6 +48,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [Your Email](mailto:youremail@example.com)  
+Suraj - [mailto:surajverma8730448@gmail.com] 
 
-Project Link: [https://github.com/your-username/project-name](https://github.com/your-username/project-name)
+Project Link: [https://github.com/surajverma02/development]
