@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+<body>
+    <h1>HTML Table</h1>
+    <table border="1" cellspacing="0" cellpadding="10" width="50%">
+        <caption>Table 1: Student Marks</caption>
+        <tr>
+            <th rowspan="2">Roll Number</th>
+            <th colspan="2">Details</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Suraj</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ravi</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sneha</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" cellspacing="0" cellpadding="10" width="50%">
+        <caption>Table 2: Subject  wise marks</caption>
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Marks</th>
+        </tr>
+        <tr>
+            <th>Math</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>Raj</td>
+            <td>90</td>
+            <td>85</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" cellspacing="0" cellpadding="10" width="50%">
+        <caption>Table 3: Marks Total</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Suraj</td>
+                <td abbr="Mathematics">Math</td>
+                <td>97</td>
+            </tr>
+            <tr>
+                <td>Ravi</td>
+                <td>History</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Sneha</td>
+                <td>Science</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>272</td>
+            </tr>
+        </tfoot>
+    </table>    
+</body>
+</html>
