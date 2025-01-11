@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Impact, Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+  padding-top: 5%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-head {
+  font-size: 200px;
+  background-image: url("images/5.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-clip: text;
+  color: transparent;
+}
+
+.photos {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 100px; /* Base row height for masonry layout */
+  gap: 15px;
+}
+
+.items {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Control item sizes to create the masonry effect */
+.items:nth-child(odd) {
+  grid-row: span 3; /* Adjust this value for larger or smaller heights */
+}
+
+.items:nth-child(even) {
+  grid-row: span 10; /* Adjust this value for larger or smaller heights */
+}
+
+/* Hover Effect */
+.items:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .photos {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+
+  .items:nth-child(odd),
+  .items:nth-child(even) {
+    grid-row: span 20;
+  }
+}
